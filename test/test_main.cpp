@@ -1,4 +1,4 @@
-#include <gtest.h>
+﻿#include <gtest.h>
 #include<locale.h>
 
 int main(int argc, char **argv)

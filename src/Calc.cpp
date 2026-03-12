@@ -1,4 +1,4 @@
-#include "Calc.h"
+п»ї#include "Calc.h"
 using namespace std;
 
 void Calc::doPostfix() {
@@ -17,11 +17,11 @@ void Calc::doPostfix() {
 					postfix.push_back(st.pop());
 				}
 				if (!st.isEmpty()) {
-					st.pop(); // удаляем '('
+					st.pop(); // СѓРґР°Р»СЏРµРј '('
 				}
 			}
-			else { // оператор
-				//проверка, что стек не пуст!
+			else { // РѕРїРµСЂР°С‚РѕСЂ
+				//РїСЂРѕРІРµСЂРєР°, С‡С‚Рѕ СЃС‚РµРє РЅРµ РїСѓСЃС‚!
 				while (!st.isEmpty() &&
 					st.top().getVal() != 4 &&
 					infix[i].givePriority() <= st.top().givePriority()) {
@@ -31,7 +31,7 @@ void Calc::doPostfix() {
 			}
 		}
 
-		// Выталкиваем оставшиеся операторы
+		// Р’С‹С‚Р°Р»РєРёРІР°РµРј РѕСЃС‚Р°РІС€РёРµСЃСЏ РѕРїРµСЂР°С‚РѕСЂС‹
 		while (!st.isEmpty()) {
 			postfix.push_back(st.pop());
 		}
@@ -57,7 +57,7 @@ int Calc::Calculate() {
 	vector<Token>_postfix(postfix);
 	TStack<int> stack(_postfix.size());
 
-		//стандартный постфиксный счет
+		//СЃС‚Р°РЅРґР°СЂС‚РЅС‹Р№ РїРѕСЃС‚С„РёРєСЃРЅС‹Р№ СЃС‡РµС‚
 		for (int i = 0; i < _postfix.size(); i++) {
 			if (_postfix[i].isTokenNum()) {
 				stack.push(_postfix[i].getVal());

@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <iostream>
 #include "Token.h"
 #include <vector>
@@ -8,7 +8,7 @@ using namespace std;
 class Lexer {
     vector<Token> arr;
     enum State { S0, S1, S2, S3,S4 };
-    // Таблица переходов: [state][input] -> next_state
+    // РўР°Р±Р»РёС†Р° РїРµСЂРµС…РѕРґРѕРІ: [state][input] -> next_state
     // input: 0 = 0 , 1 = 1..9 , 2 = digit oper, 3 = any else 
     State transitionTable[5][4] = {
         {S2, S1, S3, S4},
@@ -53,7 +53,7 @@ public:
         return *this;
     }
 
-    // Главный метод для лексического анализа (нужен в конструкторе со строкой)
+    // Р“Р»Р°РІРЅС‹Р№ РјРµС‚РѕРґ РґР»СЏ Р»РµРєСЃРёС‡РµСЃРєРѕРіРѕ Р°РЅР°Р»РёР·Р° (РЅСѓР¶РµРЅ РІ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂРµ СЃРѕ СЃС‚СЂРѕРєРѕР№)
     void Analyze(const string& expression);
 
 
@@ -85,7 +85,7 @@ public:
 
 
 private:
-    //это все штуки типо функции для исполнения при переходе из состояния в состояние(ну чтобы не только проверять, но и токенизировать сразу)
+    //СЌС‚Рѕ РІСЃРµ С€С‚СѓРєРё С‚РёРїРѕ С„СѓРЅРєС†РёРё РґР»СЏ РёСЃРїРѕР»РЅРµРЅРёСЏ РїСЂРё РїРµСЂРµС…РѕРґРµ РёР· СЃРѕСЃС‚РѕСЏРЅРёСЏ РІ СЃРѕСЃС‚РѕСЏРЅРёРµ(РЅСѓ С‡С‚РѕР±С‹ РЅРµ С‚РѕР»СЊРєРѕ РїСЂРѕРІРµСЂСЏС‚СЊ, РЅРѕ Рё С‚РѕРєРµРЅРёР·РёСЂРѕРІР°С‚СЊ СЃСЂР°Р·Сѓ)
     void processChar(char c, size_t position);
     int getInputType(char c) const;
     void performAction(State from, State to, char c, size_t position);

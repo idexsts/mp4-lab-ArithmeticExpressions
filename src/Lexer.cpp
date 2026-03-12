@@ -1,4 +1,4 @@
-#include "Lexer.h"
+п»ї#include "Lexer.h"
 
 void Lexer::Analyze(const string& expression){
     reset();
@@ -14,31 +14,31 @@ void Lexer::Analyze(const string& expression){
         }
     }
 
-    // Если в конце есть несобранное число, добавляем его
+    // Р•СЃР»Рё РІ РєРѕРЅС†Рµ РµСЃС‚СЊ РЅРµСЃРѕР±СЂР°РЅРЅРѕРµ С‡РёСЃР»Рѕ, РґРѕР±Р°РІР»СЏРµРј РµРіРѕ
     if (!currentNumber.empty()) {
         finishNumber();
     }
 }
 
 
-// Обработка одного символа с действиями
+// РћР±СЂР°Р±РѕС‚РєР° РѕРґРЅРѕРіРѕ СЃРёРјРІРѕР»Р° СЃ РґРµР№СЃС‚РІРёСЏРјРё
 void Lexer::processChar(char c, size_t position) {
     int inputType = getInputType(c);
     State previousState = currentState;
 
-    //переход
+    //РїРµСЂРµС…РѕРґ
     currentState = transitionTable[currentState][inputType];
 
-    // Выполняем действия, связанные с переходом
+    // Р’С‹РїРѕР»РЅСЏРµРј РґРµР№СЃС‚РІРёСЏ, СЃРІСЏР·Р°РЅРЅС‹Рµ СЃ РїРµСЂРµС…РѕРґРѕРј
     performAction(previousState, currentState, c, position);
 
-    // Проверяем, не попали ли в ошибочное состояние
+    // РџСЂРѕРІРµСЂСЏРµРј, РЅРµ РїРѕРїР°Р»Рё Р»Рё РІ РѕС€РёР±РѕС‡РЅРѕРµ СЃРѕСЃС‚РѕСЏРЅРёРµ
     if (currentState == S4) {
         handleError(c, position);
     }
 }
 
-// Определение типа входного символа
+// РћРїСЂРµРґРµР»РµРЅРёРµ С‚РёРїР° РІС…РѕРґРЅРѕРіРѕ СЃРёРјРІРѕР»Р°
 int Lexer::getInputType(char c) const {
     if (isdigit(static_cast<unsigned char>(c))) {
         if (c == '0') {
@@ -57,40 +57,40 @@ int Lexer::getInputType(char c) const {
     }
 }
 
-// Выполнение действий при переходе между состояниями
+// Р’С‹РїРѕР»РЅРµРЅРёРµ РґРµР№СЃС‚РІРёР№ РїСЂРё РїРµСЂРµС…РѕРґРµ РјРµР¶РґСѓ СЃРѕСЃС‚РѕСЏРЅРёСЏРјРё
 void Lexer::performAction(State from, State to, char c, size_t position) {
-    // Начало сбора числа (S0 -> S1 или S3 -> S1)
+    // РќР°С‡Р°Р»Рѕ СЃР±РѕСЂР° С‡РёСЃР»Р° (S0 -> S1 РёР»Рё S3 -> S1)
     if ((from == S0 && to == S1) || (from == S3 && to == S1)) {
         startNumber(c);
     }
 
-    // Продолжение сбора числа (S1 -> S1)
+    // РџСЂРѕРґРѕР»Р¶РµРЅРёРµ СЃР±РѕСЂР° С‡РёСЃР»Р° (S1 -> S1)
     else if (from == S1 && to == S1) {
         continueNumber(c);
     }
 
-    // Встретили '0' как отдельное число (S0 -> S2 или S3 -> S2)
+    // Р’СЃС‚СЂРµС‚РёР»Рё '0' РєР°Рє РѕС‚РґРµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ (S0 -> S2 РёР»Рё S3 -> S2)
     else if ((from == S0 && to == S2) || (from == S3 && to == S2)) {
         handleZeroAsNumber(c);
     }
 
-    // Встретили оператор, когда собирали число (S1 -> S3 или S2 -> S3)
+    // Р’СЃС‚СЂРµС‚РёР»Рё РѕРїРµСЂР°С‚РѕСЂ, РєРѕРіРґР° СЃРѕР±РёСЂР°Р»Рё С‡РёСЃР»Рѕ (S1 -> S3 РёР»Рё S2 -> S3)
     else if ((from == S1 && to == S3) || (from == S2 && to == S3)) {
         finishNumberBeforeOperator(c);
     }
 
-    // Встретили оператор после оператора (S3 -> S3)
+    // Р’СЃС‚СЂРµС‚РёР»Рё РѕРїРµСЂР°С‚РѕСЂ РїРѕСЃР»Рµ РѕРїРµСЂР°С‚РѕСЂР° (S3 -> S3)
     else if (from == S3 && to == S3) {
         handleOperatorAfterOperator(c);
     }
 
-    // Встретили оператор (S0 -> S3)
+    // Р’СЃС‚СЂРµС‚РёР»Рё РѕРїРµСЂР°С‚РѕСЂ (S0 -> S3)
     else if (from == S0 && to == S3) {
         handleOperatorAtStart(c);
     }
 }
 
-// действия автомата
+// РґРµР№СЃС‚РІРёСЏ Р°РІС‚РѕРјР°С‚Р°
 
 void Lexer::startNumber(char c) {
     currentNumber = c; 
@@ -101,13 +101,13 @@ void Lexer::continueNumber(char c) {
 }
 
 void Lexer::handleZeroAsNumber(char c) {
-    // '0' как отдельное число
+    // '0' РєР°Рє РѕС‚РґРµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ
     arr.push_back(Token(0));
     
 }
 
 void Lexer::finishNumberBeforeOperator(char c) {
-    // Завершаем сбор числа перед оператором
+    // Р—Р°РІРµСЂС€Р°РµРј СЃР±РѕСЂ С‡РёСЃР»Р° РїРµСЂРµРґ РѕРїРµСЂР°С‚РѕСЂРѕРј
     if (!currentNumber.empty()) {
         try {
             int value = stoi(currentNumber);
@@ -120,22 +120,22 @@ void Lexer::finishNumberBeforeOperator(char c) {
             return;
         }
     }
-    // Токеним оператор
+    // РўРѕРєРµРЅРёРј РѕРїРµСЂР°С‚РѕСЂ
     arr.push_back(Token(c));
 }
 
 void Lexer::handleOperatorAfterOperator(char c) {
-    //просто закидываем (можно было объединить с функцией ниже но я заленилась))
+    //РїСЂРѕСЃС‚Рѕ Р·Р°РєРёРґС‹РІР°РµРј (РјРѕР¶РЅРѕ Р±С‹Р»Рѕ РѕР±СЉРµРґРёРЅРёС‚СЊ СЃ С„СѓРЅРєС†РёРµР№ РЅРёР¶Рµ РЅРѕ СЏ Р·Р°Р»РµРЅРёР»Р°СЃСЊ))
     arr.push_back(Token(c));
 }
 
 void Lexer::handleOperatorAtStart(char c) {
-    // Оператор в начале выражения (возможно унарный)
+    // РћРїРµСЂР°С‚РѕСЂ РІ РЅР°С‡Р°Р»Рµ РІС‹СЂР°Р¶РµРЅРёСЏ (РІРѕР·РјРѕР¶РЅРѕ СѓРЅР°СЂРЅС‹Р№)
     arr.push_back(Token(c));
 }
 
 void Lexer::finishNumber() {
-    // Завершение сбора числа в конце строки
+    // Р—Р°РІРµСЂС€РµРЅРёРµ СЃР±РѕСЂР° С‡РёСЃР»Р° РІ РєРѕРЅС†Рµ СЃС‚СЂРѕРєРё
     if (!currentNumber.empty()) {
         try {
             int value = stoi(currentNumber);

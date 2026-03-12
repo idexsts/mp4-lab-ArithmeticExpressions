@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <iostream>
 #include <string>
 #include <vector>
@@ -12,7 +12,7 @@ class Syntaxer {
     vector<Token> fixedExpression;
 	bool canPostfix;
     enum State { S0, S1, S2, S3, S4, S5, S6 };
-    // Таблица переходов: [state][input] -> next_state
+    // РўР°Р±Р»РёС†Р° РїРµСЂРµС…РѕРґРѕРІ: [state][input] -> next_state
     // input: 0 = isNum true , 1 = false, 1 , 2 = false, 4 , 3 = false, 5, 4 = false, 0,2,3 
     State transitionTable[7][5] = {
         {S2, S1, S4, S6, S6},
@@ -56,7 +56,7 @@ public:
         return *this;
     }
 
-    // Главный метод для синтаксического анализа (нужен в конструкторе с вектором)
+    // Р“Р»Р°РІРЅС‹Р№ РјРµС‚РѕРґ РґР»СЏ СЃРёРЅС‚Р°РєСЃРёС‡РµСЃРєРѕРіРѕ Р°РЅР°Р»РёР·Р° (РЅСѓР¶РµРЅ РІ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂРµ СЃ РІРµРєС‚РѕСЂРѕРј)
     void AnalyzeS(const vector<Token>& arr);
 
 
