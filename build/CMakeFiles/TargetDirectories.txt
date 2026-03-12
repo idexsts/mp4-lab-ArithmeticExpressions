@@ -1,0 +1,6 @@
+D:/C++/Устала уже делать это/build/CMakeFiles/ALL_BUILD.dir
+D:/C++/Устала уже делать это/build/CMakeFiles/ZERO_CHECK.dir
+D:/C++/Устала уже делать это/build/src/CMakeFiles/calc.dir
+D:/C++/Устала уже делать это/build/samples/CMakeFiles/main.dir
+D:/C++/Устала уже делать это/build/gtest/CMakeFiles/gtest.dir
+D:/C++/Устала уже делать это/build/test/CMakeFiles/test_calc.dir

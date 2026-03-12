@@ -1,0 +1,1375 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/share/cmake-4.1/Modules/"
+    found: "D:/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\System32\\HWAudioDriverLibs"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\CodeBlocks\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\python\\Scripts\\"
+        - "D:\\python\\"
+        - "C:\\Users\\kater\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\kater\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\kater\\go\\bin"
+        - "D:\\java\\idea\\IntelliJ IDEA Community Edition 2025.2.1\\bin"
+        - "D:\\Anaconda\\"
+        - "D:\\Anaconda\\Scripts\\"
+        - "D:\\Anaconda\\Library\\bin"
+        - "C:\\Users\\kater\\.dotnet\\tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.23+b0019275e ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 22.12.2025 23:58:47.
+      
+      ╨Я╤А╨╛╨╡╨║╤В "D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      PrepareForBuild:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
+      
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.75
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/C++/Устала уже делать это/build/CMakeFiles/4.1.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/HWAudioDriverLibs/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/CodeBlocks/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "D:/Git/cmd/"
+      - "D:/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/python/Scripts/"
+      - "D:/python/"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/kater/go/bin/"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "C:/Users/kater/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\System32\\HWAudioDriverLibs"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\CodeBlocks\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\python\\Scripts\\"
+        - "D:\\python\\"
+        - "C:\\Users\\kater\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\kater\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\kater\\go\\bin"
+        - "D:\\java\\idea\\IntelliJ IDEA Community Edition 2025.2.1\\bin"
+        - "D:\\Anaconda\\"
+        - "D:\\Anaconda\\Scripts\\"
+        - "D:\\Anaconda\\Library\\bin"
+        - "C:\\Users\\kater\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/HWAudioDriverLibs/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/CodeBlocks/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "D:/Git/cmd/"
+      - "D:/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/python/Scripts/"
+      - "D:/python/"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/kater/go/bin/"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "C:/Users/kater/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "D:/Anaconda/condabin/lld-link.com"
+      - "D:/Anaconda/condabin/lld-link.exe"
+      - "D:/Anaconda/condabin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/HWAudioDriverLibs/lld-link.com"
+      - "C:/Windows/System32/HWAudioDriverLibs/lld-link.exe"
+      - "C:/Windows/System32/HWAudioDriverLibs/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/CodeBlocks/bin/lld-link.com"
+      - "C:/Users/CodeBlocks/bin/lld-link.exe"
+      - "C:/Users/CodeBlocks/bin/lld-link"
+      - "C:/Program Files/Go/bin/lld-link.com"
+      - "C:/Program Files/Go/bin/lld-link.exe"
+      - "C:/Program Files/Go/bin/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lld-link.com"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lld-link.exe"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lld-link"
+      - "D:/Git/cmd/lld-link.com"
+      - "D:/Git/cmd/lld-link.exe"
+      - "D:/Git/cmd/lld-link"
+      - "D:/bin/lld-link.com"
+      - "D:/bin/lld-link.exe"
+      - "D:/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/python/Scripts/lld-link.com"
+      - "D:/python/Scripts/lld-link.exe"
+      - "D:/python/Scripts/lld-link"
+      - "D:/python/lld-link.com"
+      - "D:/python/lld-link.exe"
+      - "D:/python/lld-link"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/kater/go/bin/lld-link.com"
+      - "C:/Users/kater/go/bin/lld-link.exe"
+      - "C:/Users/kater/go/bin/lld-link"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/lld-link.com"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/lld-link.exe"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/lld-link"
+      - "D:/Anaconda/lld-link.com"
+      - "D:/Anaconda/lld-link.exe"
+      - "D:/Anaconda/lld-link"
+      - "D:/Anaconda/Scripts/lld-link.com"
+      - "D:/Anaconda/Scripts/lld-link.exe"
+      - "D:/Anaconda/Scripts/lld-link"
+      - "D:/Anaconda/Library/bin/lld-link.com"
+      - "D:/Anaconda/Library/bin/lld-link.exe"
+      - "D:/Anaconda/Library/bin/lld-link"
+      - "C:/Users/kater/.dotnet/tools/lld-link.com"
+      - "C:/Users/kater/.dotnet/tools/lld-link.exe"
+      - "C:/Users/kater/.dotnet/tools/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\System32\\HWAudioDriverLibs"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\CodeBlocks\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\python\\Scripts\\"
+        - "D:\\python\\"
+        - "C:\\Users\\kater\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\kater\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\kater\\go\\bin"
+        - "D:\\java\\idea\\IntelliJ IDEA Community Edition 2025.2.1\\bin"
+        - "D:\\Anaconda\\"
+        - "D:\\Anaconda\\Scripts\\"
+        - "D:\\Anaconda\\Library\\bin"
+        - "C:\\Users\\kater\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/HWAudioDriverLibs/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/CodeBlocks/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "D:/Git/cmd/"
+      - "D:/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/python/Scripts/"
+      - "D:/python/"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/kater/go/bin/"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "C:/Users/kater/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\System32\\HWAudioDriverLibs"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\CodeBlocks\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\python\\Scripts\\"
+        - "D:\\python\\"
+        - "C:\\Users\\kater\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\kater\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\kater\\go\\bin"
+        - "D:\\java\\idea\\IntelliJ IDEA Community Edition 2025.2.1\\bin"
+        - "D:\\Anaconda\\"
+        - "D:\\Anaconda\\Scripts\\"
+        - "D:\\Anaconda\\Library\\bin"
+        - "C:\\Users\\kater\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/HWAudioDriverLibs/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/CodeBlocks/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "D:/Git/cmd/"
+      - "D:/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/python/Scripts/"
+      - "D:/python/"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/kater/go/bin/"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "C:/Users/kater/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "D:/Anaconda/condabin/mt.com"
+      - "D:/Anaconda/condabin/mt.exe"
+      - "D:/Anaconda/condabin/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/HWAudioDriverLibs/mt.com"
+      - "C:/Windows/System32/HWAudioDriverLibs/mt.exe"
+      - "C:/Windows/System32/HWAudioDriverLibs/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/CodeBlocks/bin/mt.com"
+      - "C:/Users/CodeBlocks/bin/mt.exe"
+      - "C:/Users/CodeBlocks/bin/mt"
+      - "C:/Program Files/Go/bin/mt.com"
+      - "C:/Program Files/Go/bin/mt.exe"
+      - "C:/Program Files/Go/bin/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/mt.com"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/mt.exe"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/mt"
+      - "D:/Git/cmd/mt.com"
+      - "D:/Git/cmd/mt.exe"
+      - "D:/Git/cmd/mt"
+      - "D:/bin/mt.com"
+      - "D:/bin/mt.exe"
+      - "D:/bin/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "D:/python/Scripts/mt.com"
+      - "D:/python/Scripts/mt.exe"
+      - "D:/python/Scripts/mt"
+      - "D:/python/mt.com"
+      - "D:/python/mt.exe"
+      - "D:/python/mt"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/kater/go/bin/mt.com"
+      - "C:/Users/kater/go/bin/mt.exe"
+      - "C:/Users/kater/go/bin/mt"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/mt.com"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/mt.exe"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/mt"
+      - "D:/Anaconda/mt.com"
+      - "D:/Anaconda/mt.exe"
+      - "D:/Anaconda/mt"
+      - "D:/Anaconda/Scripts/mt.com"
+      - "D:/Anaconda/Scripts/mt.exe"
+      - "D:/Anaconda/Scripts/mt"
+      - "D:/Anaconda/Library/bin/mt.com"
+      - "D:/Anaconda/Library/bin/mt.exe"
+      - "D:/Anaconda/Library/bin/mt"
+      - "C:/Users/kater/.dotnet/tools/mt.com"
+      - "C:/Users/kater/.dotnet/tools/mt.exe"
+      - "C:/Users/kater/.dotnet/tools/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\System32\\HWAudioDriverLibs"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\CodeBlocks\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\python\\Scripts\\"
+        - "D:\\python\\"
+        - "C:\\Users\\kater\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\kater\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\kater\\go\\bin"
+        - "D:\\java\\idea\\IntelliJ IDEA Community Edition 2025.2.1\\bin"
+        - "D:\\Anaconda\\"
+        - "D:\\Anaconda\\Scripts\\"
+        - "D:\\Anaconda\\Library\\bin"
+        - "C:\\Users\\kater\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/HWAudioDriverLibs/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/CodeBlocks/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "D:/Git/cmd/"
+      - "D:/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/python/Scripts/"
+      - "D:/python/"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/kater/go/bin/"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "C:/Users/kater/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\System32\\HWAudioDriverLibs"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\CodeBlocks\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\python\\Scripts\\"
+        - "D:\\python\\"
+        - "C:\\Users\\kater\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\kater\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\kater\\go\\bin"
+        - "D:\\java\\idea\\IntelliJ IDEA Community Edition 2025.2.1\\bin"
+        - "D:\\Anaconda\\"
+        - "D:\\Anaconda\\Scripts\\"
+        - "D:\\Anaconda\\Library\\bin"
+        - "C:\\Users\\kater\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/share/cmake-4.1/Modules/"
+    found: "D:/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\System32\\HWAudioDriverLibs"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\CodeBlocks\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\python\\Scripts\\"
+        - "D:\\python\\"
+        - "C:\\Users\\kater\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\kater\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\kater\\go\\bin"
+        - "D:\\java\\idea\\IntelliJ IDEA Community Edition 2025.2.1\\bin"
+        - "D:\\Anaconda\\"
+        - "D:\\Anaconda\\Scripts\\"
+        - "D:\\Anaconda\\Library\\bin"
+        - "C:\\Users\\kater\\.dotnet\\tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.23+b0019275e ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 22.12.2025 23:58:50.
+      
+      ╨Я╤А╨╛╨╡╨║╤В "D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      PrepareForBuild:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
+      
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.69
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/C++/Устала уже делать это/build/CMakeFiles/4.1.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/HWAudioDriverLibs/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/CodeBlocks/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "D:/Git/cmd/"
+      - "D:/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/python/Scripts/"
+      - "D:/python/"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/kater/go/bin/"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "C:/Users/kater/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "D:/Anaconda/condabin/lld-link.com"
+      - "D:/Anaconda/condabin/lld-link.exe"
+      - "D:/Anaconda/condabin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/HWAudioDriverLibs/lld-link.com"
+      - "C:/Windows/System32/HWAudioDriverLibs/lld-link.exe"
+      - "C:/Windows/System32/HWAudioDriverLibs/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/CodeBlocks/bin/lld-link.com"
+      - "C:/Users/CodeBlocks/bin/lld-link.exe"
+      - "C:/Users/CodeBlocks/bin/lld-link"
+      - "C:/Program Files/Go/bin/lld-link.com"
+      - "C:/Program Files/Go/bin/lld-link.exe"
+      - "C:/Program Files/Go/bin/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lld-link.com"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lld-link.exe"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lld-link"
+      - "D:/Git/cmd/lld-link.com"
+      - "D:/Git/cmd/lld-link.exe"
+      - "D:/Git/cmd/lld-link"
+      - "D:/bin/lld-link.com"
+      - "D:/bin/lld-link.exe"
+      - "D:/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/python/Scripts/lld-link.com"
+      - "D:/python/Scripts/lld-link.exe"
+      - "D:/python/Scripts/lld-link"
+      - "D:/python/lld-link.com"
+      - "D:/python/lld-link.exe"
+      - "D:/python/lld-link"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/kater/go/bin/lld-link.com"
+      - "C:/Users/kater/go/bin/lld-link.exe"
+      - "C:/Users/kater/go/bin/lld-link"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/lld-link.com"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/lld-link.exe"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/lld-link"
+      - "D:/Anaconda/lld-link.com"
+      - "D:/Anaconda/lld-link.exe"
+      - "D:/Anaconda/lld-link"
+      - "D:/Anaconda/Scripts/lld-link.com"
+      - "D:/Anaconda/Scripts/lld-link.exe"
+      - "D:/Anaconda/Scripts/lld-link"
+      - "D:/Anaconda/Library/bin/lld-link.com"
+      - "D:/Anaconda/Library/bin/lld-link.exe"
+      - "D:/Anaconda/Library/bin/lld-link"
+      - "C:/Users/kater/.dotnet/tools/lld-link.com"
+      - "C:/Users/kater/.dotnet/tools/lld-link.exe"
+      - "C:/Users/kater/.dotnet/tools/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\System32\\HWAudioDriverLibs"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\CodeBlocks\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\python\\Scripts\\"
+        - "D:\\python\\"
+        - "C:\\Users\\kater\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\kater\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\kater\\go\\bin"
+        - "D:\\java\\idea\\IntelliJ IDEA Community Edition 2025.2.1\\bin"
+        - "D:\\Anaconda\\"
+        - "D:\\Anaconda\\Scripts\\"
+        - "D:\\Anaconda\\Library\\bin"
+        - "C:\\Users\\kater\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "D:/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "D:/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "D:/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "D:/Anaconda/condabin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/HWAudioDriverLibs/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/CodeBlocks/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "D:/Git/cmd/"
+      - "D:/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/python/Scripts/"
+      - "D:/python/"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/kater/go/bin/"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "C:/Users/kater/.dotnet/tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/bin/"
+      - "D:/sbin/"
+      - "D:/"
+      - "C:/Program Files (x86)/calc/bin/"
+      - "C:/Program Files (x86)/calc/sbin/"
+      - "C:/Program Files (x86)/calc/"
+    searched_directories:
+      - "D:/Anaconda/condabin/rc.com"
+      - "D:/Anaconda/condabin/rc.exe"
+      - "D:/Anaconda/condabin/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/HWAudioDriverLibs/rc.com"
+      - "C:/Windows/System32/HWAudioDriverLibs/rc.exe"
+      - "C:/Windows/System32/HWAudioDriverLibs/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/CodeBlocks/bin/rc.com"
+      - "C:/Users/CodeBlocks/bin/rc.exe"
+      - "C:/Users/CodeBlocks/bin/rc"
+      - "C:/Program Files/Go/bin/rc.com"
+      - "C:/Program Files/Go/bin/rc.exe"
+      - "C:/Program Files/Go/bin/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/rc.com"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/rc.exe"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/rc"
+      - "D:/Git/cmd/rc.com"
+      - "D:/Git/cmd/rc.exe"
+      - "D:/Git/cmd/rc"
+      - "D:/bin/rc.com"
+      - "D:/bin/rc.exe"
+      - "D:/bin/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "D:/python/Scripts/rc.com"
+      - "D:/python/Scripts/rc.exe"
+      - "D:/python/Scripts/rc"
+      - "D:/python/rc.com"
+      - "D:/python/rc.exe"
+      - "D:/python/rc"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/kater/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/kater/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/kater/go/bin/rc.com"
+      - "C:/Users/kater/go/bin/rc.exe"
+      - "C:/Users/kater/go/bin/rc"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/rc.com"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/rc.exe"
+      - "D:/java/idea/IntelliJ IDEA Community Edition 2025.2.1/bin/rc"
+      - "D:/Anaconda/rc.com"
+      - "D:/Anaconda/rc.exe"
+      - "D:/Anaconda/rc"
+      - "D:/Anaconda/Scripts/rc.com"
+      - "D:/Anaconda/Scripts/rc.exe"
+      - "D:/Anaconda/Scripts/rc"
+      - "D:/Anaconda/Library/bin/rc.com"
+      - "D:/Anaconda/Library/bin/rc.exe"
+      - "D:/Anaconda/Library/bin/rc"
+      - "C:/Users/kater/.dotnet/tools/rc.com"
+      - "C:/Users/kater/.dotnet/tools/rc.exe"
+      - "C:/Users/kater/.dotnet/tools/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "D:/bin/rc.com"
+      - "D:/bin/rc.exe"
+      - "D:/bin/rc"
+      - "D:/sbin/rc.com"
+      - "D:/sbin/rc.exe"
+      - "D:/sbin/rc"
+      - "D:/rc.com"
+      - "D:/rc.exe"
+      - "D:/rc"
+      - "C:/Program Files (x86)/calc/bin/rc.com"
+      - "C:/Program Files (x86)/calc/bin/rc.exe"
+      - "C:/Program Files (x86)/calc/bin/rc"
+      - "C:/Program Files (x86)/calc/sbin/rc.com"
+      - "C:/Program Files (x86)/calc/sbin/rc.exe"
+      - "C:/Program Files (x86)/calc/sbin/rc"
+      - "C:/Program Files (x86)/calc/rc.com"
+      - "C:/Program Files (x86)/calc/rc.exe"
+      - "C:/Program Files (x86)/calc/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\System32\\HWAudioDriverLibs"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\CodeBlocks\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\python\\Scripts\\"
+        - "D:\\python\\"
+        - "C:\\Users\\kater\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\kater\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\kater\\go\\bin"
+        - "D:\\java\\idea\\IntelliJ IDEA Community Edition 2025.2.1\\bin"
+        - "D:\\Anaconda\\"
+        - "D:\\Anaconda\\Scripts\\"
+        - "D:\\Anaconda\\Library\\bin"
+        - "C:\\Users\\kater\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/calc"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/"
+        - "C:/Program Files (x86)/calc"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/C++/\u0423\u0441\u0442\u0430\u043b\u0430 \u0443\u0436\u0435 \u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e/build/CMakeFiles/CMakeScratch/TryCompile-n4xloo"
+      binary: "D:/C++/\u0423\u0441\u0442\u0430\u043b\u0430 \u0443\u0436\u0435 \u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e/build/CMakeFiles/CMakeScratch/TryCompile-n4xloo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/C++/Устала уже делать это/build/CMakeFiles/CMakeScratch/TryCompile-n4xloo'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_67ab8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.23+b0019275e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 22.12.2025 23:58:52.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n4xloo\\cmTC_67ab8.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_67ab8.dir\\Debug\\".
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n4xloo\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_67ab8.dir\\Debug\\cmTC_67ab8.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_67ab8.dir\\Debug\\cmTC_67ab8.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_67ab8.dir\\Debug\\cmTC_67ab8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_67ab8.dir\\Debug\\\\" /Fd"cmTC_67ab8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35222 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_67ab8.dir\\Debug\\\\" /Fd"cmTC_67ab8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n4xloo\\Debug\\cmTC_67ab8.exe" /INCREMENTAL /ILK:"cmTC_67ab8.dir\\Debug\\cmTC_67ab8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/C++/╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛/build/CMakeFiles/CMakeScratch/TryCompile-n4xloo/Debug/cmTC_67ab8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/C++/╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛/build/CMakeFiles/CMakeScratch/TryCompile-n4xloo/Debug/cmTC_67ab8.lib" /MACHINE:X64  /machine:x64 cmTC_67ab8.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_67ab8.vcxproj -> D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n4xloo\\Debug\\cmTC_67ab8.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_67ab8.dir\\Debug\\cmTC_67ab8.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_67ab8.dir\\Debug\\cmTC_67ab8.tlog\\cmTC_67ab8.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n4xloo\\cmTC_67ab8.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.64
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35222.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/C++/\u0423\u0441\u0442\u0430\u043b\u0430 \u0443\u0436\u0435 \u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e/build/CMakeFiles/CMakeScratch/TryCompile-v0y19s"
+      binary: "D:/C++/\u0423\u0441\u0442\u0430\u043b\u0430 \u0443\u0436\u0435 \u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e/build/CMakeFiles/CMakeScratch/TryCompile-v0y19s"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/C++/Устала уже делать это/build/CMakeFiles/CMakeScratch/TryCompile-v0y19s'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_25435.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.23+b0019275e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 22.12.2025 23:58:54.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v0y19s\\cmTC_25435.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_25435.dir\\Debug\\".
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v0y19s\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_25435.dir\\Debug\\cmTC_25435.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_25435.dir\\Debug\\cmTC_25435.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_25435.dir\\Debug\\cmTC_25435.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_25435.dir\\Debug\\\\" /Fd"cmTC_25435.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35222 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_25435.dir\\Debug\\\\" /Fd"cmTC_25435.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v0y19s\\Debug\\cmTC_25435.exe" /INCREMENTAL /ILK:"cmTC_25435.dir\\Debug\\cmTC_25435.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/C++/╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛/build/CMakeFiles/CMakeScratch/TryCompile-v0y19s/Debug/cmTC_25435.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/C++/╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛/build/CMakeFiles/CMakeScratch/TryCompile-v0y19s/Debug/cmTC_25435.lib" /MACHINE:X64  /machine:x64 cmTC_25435.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_25435.vcxproj -> D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v0y19s\\Debug\\cmTC_25435.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_25435.dir\\Debug\\cmTC_25435.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_25435.dir\\Debug\\cmTC_25435.tlog\\cmTC_25435.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\C++\\╨г╤Б╤В╨░╨╗╨░ ╤Г╨╢╨╡ ╨┤╨╡╨╗╨░╤В╤М ╤Н╤В╨╛\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v0y19s\\cmTC_25435.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.70
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35222.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
